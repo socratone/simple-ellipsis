@@ -1,0 +1,43 @@
+body {
+  margin: 20px;
+}
+
+.bumper {
+  height: 10px;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.flex-item {
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* https://webplatform.news/issues/2017-10-03 */
+.prevent-overflow {
+  overflow-x: auto;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ellipsis-1 {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button-container {
+  flex-shrink: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
